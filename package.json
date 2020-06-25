@@ -1,0 +1,19 @@
+{
+  "name": "hotel-guide",
+  "version": "1.0.0",
+  "description": "Starting project hotel guide",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lordwarmax/hotel-guide.git"
+  },
+  "author": "Max Carmona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lordwarmax/hotel-guide/issues"
+  },
+  "homepage": "https://github.com/lordwarmax/hotel-guide#readme"
+}
