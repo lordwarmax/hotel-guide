@@ -32,12 +32,53 @@
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Nosotros</li>
+                    <li class="breadcrumb-item active" aria-current="page">Contacto</li>
                 </ol>
             </nav>
-            <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, praesentium. Dicta aliquam voluptate cupiditate dignissimos temporibus provident dolorum atque unde est. Nemo, alias recusandae provident natus expedita unde incidunt illum illo mollitia qui aliquam, tempore vel fuga laudantium doloremque consectetur nam ea magni velit placeat sunt sit? Molestiae quaerat voluptates nulla illo, commodi omnis totam fugit rerum, porro recusandae, animi explicabo. Distinctio fugiat voluptates veniam? Similique, rerum illum voluptates nostrum, quisquam quod suscipit voluptatibus quas asperiores eligendi voluptatem inventore debitis?
-            </span>
+            <h1>Dejanos tu mensaje</h1>
+            <form action="">
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-sm-9">
+                        <label for="domicilio">Domicilio</label>
+                        <input type="text" class="form-control" id="domicilio" placeholder="Ingrese su domicilio">
+                    </div>
+                    <div class="form-group col-sm-3">
+                        <label for="provincia">Provincia</label>
+                        <select id="provincia" class="form-control">
+                            <option selected>Capital Federal</option>
+                            <option>Buenos Aires</option>
+                            <option>Cordoba</option>
+                            <option>Santa Fe</option>
+                            <option>Mendoza</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="comentario">Comentario</label>
+                    <textarea id="comentario" class="form-control" rows="8"></textarea>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="gridCheck">
+                        <label for="gridCheck" class="form-check-label">Quiero que me contacten</label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
         </div>
         <footer>
             <div class="row">
