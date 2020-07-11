@@ -1,23 +1,37 @@
+$white: #fff;
+$yellow: #f0f007;
+$rojo: #ff9d96;
+$verde: #d5ffd4;
+
+
+@mixin margenes ($top, $bottom){
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+
 .jumbotron {
-    color: white;
+    color: $white;
     font-weight: bold;
-    margin-top: 50px;
     background-image: url("/images/hotel-1111199_1920.jpg");
     background-size: cover;
     background-position: center;
+
+    @include margenes(50px, 0);
 }
 
 footer {
     padding: 10px 10px 0 10px;
-    background-color: yellow;
-    margin-bottom: 0px;
-    margin-top: 10px;
+    background-color: $yellow;
+    
+    @include margenes(10px, 0)
 }
 
 .card-hotel {
     flex: 1 200px;
     padding: 2px 0px;
-    margin-top: 10px;
+    background-color: $verde;
+    
+    @include margenes(10px, 0)
 }
 
 .btn-reserva {
@@ -27,13 +41,9 @@ footer {
 
 .footer-address-icon, .button-icon {
     padding-right: 10px;
+    color: $rojo;
 }
 
 .tab-content {
-    padding-top: 10px;
+    @include margenes(10px, 0)
 }
-
-/*.carousel-img {
-    width: 100%;
-    height: rem45;
-}*/
